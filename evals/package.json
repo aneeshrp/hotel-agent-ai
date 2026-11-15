@@ -1,0 +1,12 @@
+{
+  "name": "@hotel-agent/evals",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Evaluation suites for the hotel agent.",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  }
+}
