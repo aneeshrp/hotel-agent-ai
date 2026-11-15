@@ -1,0 +1,12 @@
+{
+  "name": "@hotel-agent/mcp-hotel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server exposing hotel search tools to the agent.",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  }
+}
