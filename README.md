@@ -13,3 +13,5 @@ The flow, step by step
 4.  It places a phone call to the chosen hotel and negotiates or books the room.
 5.  The hotel sends an email receipt; the agent reads it and extracts booking details.
 6.  The agent checks the receipt matches what was agreed, saves the booking and tells the user.
+
+Commands and working rules: see [CLAUDE.md](CLAUDE.md). Architecture: [docs/architecture.md](docs/architecture.md).
