@@ -4,16 +4,16 @@
 
 | #   | Task                                                                          | Depends on | Status      | Jira key | Notes           |
 | --- | ----------------------------------------------------------------------------- | ---------- | ----------- | -------- | --------------- |
-| 1   | Hotel type and zod schema                                                     | —          | In progress |          | Already started |
-| 2   | Seed 30 fake hotels in City X (rooms, capacity, location, fake phone numbers) | 1          | To do       |          |                 |
-| 3   | Ranking function (price, rating, distance) with unit tests                    | 1          | To do       |          |                 |
-| 4   | GET /hotels/search with filters and pagination                                | 2, 3       | To do       |          |                 |
-| 5   | GET /hotels/:id for hotel details                                             | 2          | To do       |          |                 |
-| 6   | Bookings table, POST /bookings and GET /bookings/:id                          | 1          | To do       |          |                 |
-| 7   | Dev environment: Mailpit in docker-compose and .env.example                   | —          | To do       |          |                 |
-| 8   | Phone-call guard: calls only go to the simulator                              | 1          | To do       |          |                 |
-| 9   | Web: homepage with search form and paginated results                          | 4          | To do       |          |                 |
-| 10  | Web: hotel details page                                                       | 5, 9       | To do       |          |                 |
+| 1   | Hotel type and zod schema                                                     | —          | In progress | KAN-4    | Already started |
+| 2   | Seed 30 fake hotels in City X (rooms, capacity, location, fake phone numbers) | 1          | To do       | KAN-5    |                 |
+| 3   | Ranking function (price, rating, distance) with unit tests                    | 1          | To do       | KAN-6    |                 |
+| 4   | GET /hotels/search with filters and pagination                                | 2, 3       | To do       | KAN-8    |                 |
+| 5   | GET /hotels/:id for hotel details                                             | 2          | To do       | KAN-9    |                 |
+| 6   | Bookings table, POST /bookings and GET /bookings/:id                          | 1          | To do       | KAN-10   |                 |
+| 7   | Dev environment: Mailpit in docker-compose and .env.example                   | —          | To do       | KAN-11   |                 |
+| 8   | Phone-call guard: calls only go to the simulator                              | 1          | To do       | KAN-12   |                 |
+| 9   | Web: homepage with search form and paginated results                          | 4          | To do       | KAN-13   |                 |
+| 10  | Web: hotel details page                                                       | 5, 9       | To do       | KAN-14   |                 |
 
 Feature requests covered by M1:
 
