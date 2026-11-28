@@ -25,3 +25,5 @@ export async function searchHotels(_criteria: HotelSearchCriteria): Promise<Hote
 export function rankOffers(offers: readonly HotelOffer[]): HotelOffer[] {
   return [...offers].sort((a, b) => a.pricePerNight - b.pricePerNight);
 }
+
+export { HotelSchema, type Hotel } from './hotel.js';
