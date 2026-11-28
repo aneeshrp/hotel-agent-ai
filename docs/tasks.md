@@ -10,7 +10,7 @@
 | 4   | GET /hotels/search with filters and pagination                                | 2, 3       | To do       |          |                 |
 | 5   | GET /hotels/:id for hotel details                                             | 2          | To do       |          |                 |
 | 6   | Bookings table, POST /bookings and GET /bookings/:id                          | 1          | To do       |          |                 |
-| 7   | Dev environment: Mailpit in docker-compose and .env.example                   | —          | To do       |          |                 |
+| 7   | Dev environment: Mailpit in docker-compose and .env.example                   | —          | Done        | KAN-11   |                 |
 | 8   | Phone-call guard: calls only go to the simulator                              | 1          | To do       |          |                 |
 | 9   | Web: homepage with search form and paginated results                          | 4          | To do       |          |                 |
 | 10  | Web: hotel details page                                                       | 5, 9       | To do       |          |                 |

@@ -17,6 +17,11 @@ React 19 + Vite (apps/web), Vitest, zod, better-sqlite3 (planned).
 This list is the source of truth; other docs link here.
 
 - `npm install`
+- `cp .env.example .env`, then fill in values (`.env` is gitignored; never commit it)
+- `npm run dev:services`: start local services in Docker (needs Docker with Compose v2).
+  Mailpit catches all mail: SMTP on `localhost:1025`, web UI and API on
+  http://localhost:8025
+- `npm run dev:services:stop`: stop and remove them (Mailpit's mail is discarded)
 - `npm run dev:api`: API on http://localhost:3000 (`tsx watch`)
 - `npm run dev:web`: web on http://localhost:5173; proxies `/api/*` to the API and strips
   the `/api` prefix, so mount API routes without it

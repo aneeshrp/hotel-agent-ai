@@ -14,4 +14,16 @@ The flow, step by step
 5.  The hotel sends an email receipt; the agent reads it and extracts booking details.
 6.  The agent checks the receipt matches what was agreed, saves the booking and tells the user.
 
+## Getting started
+
+Needs Node 24 and Docker with Compose v2.
+
+1. `npm install`
+2. `cp .env.example .env` and fill in the values.
+3. `npm run dev:services` starts Mailpit, a local mail catcher. Its inbox is at
+   http://localhost:8025.
+4. `npm run dev:api` and `npm run dev:web` start the API and the web page.
+
+Stop services with `npm run dev:services:stop`.
+
 Commands and working rules: see [CLAUDE.md](CLAUDE.md). Architecture: [docs/architecture.md](docs/architecture.md).
